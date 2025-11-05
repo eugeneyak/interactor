@@ -1,5 +1,8 @@
 # frozen_string_literal: true
 
+require 'delegate'
+require 'fiber/local'
+
 module Yaks
   module Interactor
     class Stack < Delegator

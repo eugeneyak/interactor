@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "interactor/version"
-require_relative "interactor/caller"
-require_relative "interactor/do"
-require_relative "interactor/middleware"
-require_relative "interactor/stack"
+require_relative 'interactor/version'
+require_relative 'interactor/caller'
+require_relative 'interactor/do'
+require_relative 'interactor/middleware'
+require_relative 'interactor/stack'
 
 module Yaks
   module Interactor
